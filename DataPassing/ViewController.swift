@@ -78,6 +78,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! CustomTableViewCell
+        
+        
         //cell.label1?.text = self.detail[indexPath.row].name
         //cell.label2?.text = self.detail[indexPath.row].alpha2Code
     
